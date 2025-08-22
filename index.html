@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>守望先锋英雄推荐系统</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>守望先锋英雄推荐系统</h1>
+            <p>根据地图、队友阵容和敌方阵容，为您推荐最适合的英雄</p>
+        </header>
+
+        <!-- 上半部分：控制区域 -->
+        <div class="control-section">
+            <div class="control-grid">
+                <!-- 游戏模式选择 -->
+                <div class="control-item">
+                    <h3>游戏模式</h3>
+                    <div class="mode-selector">
+                        <button class="mode-btn active" data-mode="5v5">5v5 模式</button>
+                        <button class="mode-btn" data-mode="6v6">6v6 模式</button>
+                    </div>
+                </div>
+
+                <!-- 地图选择 -->
+                <div class="control-item">
+                    <h3>选择地图</h3>
+                    <select id="mapSelector" class="map-select">
+                        <option value="">请选择地图</option>
+                    </select>
+                </div>
+
+                <!-- 位置选择 -->
+                <div class="control-item">
+                    <h3>选择位置</h3>
+                    <div class="role-selector">
+                        <button class="role-btn active" data-role="all">全部</button>
+                        <button class="role-btn" data-role="tank">坦克</button>
+                        <button class="role-btn" data-role="damage">输出</button>
+                        <button class="role-btn" data-role="support">支援</button>
+                    </div>
+                </div>
+
+                <!-- 获取推荐按钮 -->
+                <div class="control-item">
+                    <h3>操作</h3>
+                    <button id="getRecommendation" class="recommend-btn">获取英雄推荐</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 下半部分：选择和推荐区域 -->
+        <div class="main-content">
+            <!-- 己方英雄选择 -->
+            <div class="composition-panel team-panel">
+                <h3>己方阵容</h3>
+                <div class="hero-list" id="teamHeroList">
+                    <!-- 将根据游戏模式动态生成 -->
+                </div>
+            </div>
+
+            <!-- 英雄推荐结果 -->
+            <div class="recommendation-panel">
+                <h3>推荐结果</h3>
+                <div class="recommendations" id="recommendations">
+                    <div class="empty-state">
+                        <p>请先选择地图和配置阵容，然后点击"获取英雄推荐"</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 敌方英雄选择 -->
+            <div class="composition-panel enemy-panel">
+                <h3>敌方阵容</h3>
+                <div class="hero-list" id="enemyHeroList">
+                    <!-- 将根据游戏模式动态生成 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 英雄选择弹窗 -->
+        <div class="modal" id="heroSelectionModal">
+            <div class="modal-content hero-selection-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">选择英雄</h2>
+                    <span class="close" id="closeHeroSelection">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="role-filter">
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="tank">坦克</button>
+                        <button class="filter-btn" data-filter="damage">输出</button>
+                        <button class="filter-btn" data-filter="support">支援</button>
+                    </div>
+                    <div class="hero-grid" id="heroSelectionGrid">
+                        <!-- 英雄选择网格将动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 英雄详情模态框 -->
+        <div class="modal" id="heroModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="hero-details" id="heroDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
