@@ -466,6 +466,15 @@
           "synergyWith": []
       },
       {
+        "id": "soldier76",
+        "name": "士兵76",
+        "role": "damage",
+        "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png",
+        "counters": [],
+        "counteredBy": [],
+        "synergyWith": []
+    },
+      {
           "id": "sombra",
           "name": "黑影",
           "role": "damage",
@@ -497,6 +506,15 @@
               "torbjorn",
               "bastion"
           ]
+      },
+      {
+          "id": "torbjorn",
+          "name": "托比昂",
+          "role": "damage",
+          "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1309ab1add1cc19189a2c8bc7b1471f88efa1073e9705d2397fdb37d45707d01.png",
+          "counters": [],
+          "counteredBy": [],
+          "synergyWith": []
       },
       {
           "id": "tracer",
