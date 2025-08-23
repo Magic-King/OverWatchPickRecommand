@@ -26,7 +26,7 @@
       },
       {
           "id": "doomfist",
-          "name": "铁拳",
+          "name": "末日铁拳",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13750471c693c1a360eb19d5ace229c8599a729cd961d72ebee0e157657b7d18.png",
           "counters": [],
@@ -386,7 +386,7 @@
       },
       {
           "id": "mei",
-          "name": "美",
+          "name": "小美",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png",
           "counters": [
