@@ -5,24 +5,22 @@
           "name": "D.Va",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca114f72193e4d58a85c087e9409242f1a31e808cf4058678b8cbf767c2a9a0a.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "widowmaker",
-              "hanzo"
-          ],
+          "counters": [],
           "counteredBy": [
               "zarya",
+              "junker-queen",
+              "sigma",
+              "hanzo",
+              "widowmaker",
+              "sombra",
+              "echo",
               "symmetra",
-              "moira",
-              "winston"
+              "mei",
+              "ana",
+              "zenyatta",
+              "moira"
           ],
-          "synergyWith": [
-              "winston",
-              "lucio",
-              "mercy",
-              "reinhardt"
-          ]
+          "synergyWith": []
       },
       {
           "id": "doomfist",
@@ -30,7 +28,17 @@
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13750471c693c1a360eb19d5ace229c8599a729cd961d72ebee0e157657b7d18.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "roadhog",
+              "orisa",
+              "zarya",
+              "cassidy",
+              "sombra",
+              "tracer",
+              "ana",
+              "juno",
+              "brigitte"
+          ],
           "synergyWith": []
       },
       {
@@ -39,7 +47,20 @@
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/612ae1e6d28125bd4d4d18c2c4e5b004936c094556239ed24a1c0a806410a020.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "dva",
+              "doomfist",
+              "roadhog",
+              "sigma",
+              "orisa",
+              "zarya",
+              "sojourn",
+              "echo",
+              "torbjorn",
+              "tracer",
+              "ana",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -48,7 +69,22 @@
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b4fa5f937fe07ef56c78bca80be9602c062b8d4451692aecff50e2f68c5c6476.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "doomfist",
+              "hazard",
+              "mauga",
+              "orisa",
+              "zarya",
+              "sojourn",
+              "echo",
+              "torbjorn",
+              "mei",
+              "pharah",
+              "ana",
+              "lucio",
+              "kiriko",
+              "juno"
+          ],
           "synergyWith": []
       },
       {
@@ -57,7 +93,19 @@
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ee3f5a62893091d575ec0a0d66df878597086374202c6fc7da2d63320a7d02e.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "sigma",
+              "orisa",
+              "zarya",
+              "reaper",
+              "sojourn",
+              "echo",
+              "widowmaker",
+              "pharah",
+              "ana",
+              "zenyatta",
+              "juno"
+          ],
           "synergyWith": []
       },
       {
@@ -65,24 +113,27 @@
           "name": "奥丽莎",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/71e96294617e81051d120b5d04b491bb1ea40e2933da44d6631aae149aac411d.png",
-          "counters": [
-              "pharah",
-              "tracer",
-              "genji",
-              "winston"
-          ],
+          "counters": [],
           "counteredBy": [
-              "junkrat",
+              "sigma",
+              "wrecking-ball",
+              "winston",
+              "zarya",
+              "ashe",
               "bastion",
+              "sojourn",
+              "echo",
               "hanzo",
-              "widowmaker"
+              "junkrat",
+              "tracer",
+              "widowmaker",
+              "pharah",
+              "ana",
+              "baptiste",
+              "zenyatta",
+              "illari"
           ],
-          "synergyWith": [
-              "roadhog",
-              "soldier76",
-              "cassidy",
-              "bastion"
-          ]
+          "synergyWith": []
       },
       {
           "id": "ramattra",
@@ -90,7 +141,27 @@
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3e0367155e1940a24da076c6f1f065aacede88dbc323631491aa0cd5a51e0b66.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "hazard",
+              "roadhog",
+              "junker-queen",
+              "mauga",
+              "sigma",
+              "reaper",
+              "bastion",
+              "sojourn",
+              "echo",
+              "genji",
+              "torbjorn",
+              "tracer",
+              "mei",
+              "pharah",
+              "ana",
+              "baptiste",
+              "zenyatta",
+              "illari",
+              "juno"
+          ],
           "synergyWith": []
       },
       {
@@ -98,144 +169,145 @@
           "name": "莱因哈特",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/490d2f79f8547d6e364306af60c8184fb8024b8e55809e4cc501126109981a65.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "dva",
-              "tracer"
-          ],
+          "counters": [],
           "counteredBy": [
-              "reaper",
-              "symmetra",
-              "doomfist",
-              "sombra"
+              "winston",
+              "ramattra",
+              "ashe",
+              "bastion",
+              "echo",
+              "torbjorn",
+              "junkrat",
+              "mei",
+              "pharah",
+              "ana",
+              "baptiste",
+              "lucio",
+              "brigitte",
+              "zenyatta",
+              "illari"
           ],
-          "synergyWith": [
-              "orisa",
-              "reinhardt",
-              "soldier76",
-              "cassidy"
-          ]
+          "synergyWith": []
       },
       {
           "id": "roadhog",
           "name": "路霸",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/72e02e747b66b61fcbc02d35d350770b3ec7cbaabd0a7ca17c0d82743d43a7e8.png",
-          "counters": [
-              "tracer",
-              "genji",
-              "lucio",
-              "ana"
-          ],
+          "counters": [],
           "counteredBy": [
-              "pharah",
-              "zarya",
-              "reaper",
-              "dva"
-          ],
-          "synergyWith": [
-              "zarya",
+              "doomfist",
+              "reinhardt",
+              "junker-queen",
+              "mauga",
               "orisa",
-              "soldier76",
-              "cassidy"
-          ]
+              "zarya",
+              "ashe",
+              "reaper",
+              "sojourn",
+              "echo",
+              "sombra",
+              "genji",
+              "hanzo",
+              "widowmaker",
+              "mei",
+              "pharah",
+              "ana",
+              "baptiste",
+              "brigitte",
+              "zenyatta"
+          ],
+          "synergyWith": []
       },
       {
           "id": "sigma",
           "name": "西格玛",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cd7a4c0a0df8924afb2c9f6df864ed040f20250440c36ca2eb634acf6609c5e4.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "dva",
-              "tracer"
-          ],
+          "counters": [],
           "counteredBy": [
-              "reaper",
-              "symmetra",
               "doomfist",
-              "sombra"
-          ],
-          "synergyWith": [
-              "orisa",
               "reinhardt",
-              "soldier76",
-              "cassidy"
-          ]
+              "winston",
+              "ramattra",
+              "sombra",
+              "symmetra",
+              "mei",
+              "pharah",
+              "brigitte",
+              "kiriko",
+              "moira",
+              "zenyatta",
+              "lifeweaver"
+          ],
+          "synergyWith": []
       },
       {
           "id": "winston",
           "name": "温斯顿",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bd9c8e634d89488459dfc1aeb21b602fa5c39aa05601a4167682f3a3fed4e0ee.png",
-          "counters": [
-              "genji",
-              "tracer",
-              "widowmaker",
-              "hanzo"
-          ],
+          "counters": [],
           "counteredBy": [
-              "reaper",
-              "roadhog",
-              "bastion",
-              "torbjorn"
-          ],
-          "synergyWith": [
               "dva",
-              "tracer",
-              "genji",
-              "lucio"
-          ]
+              "hazard",
+              "junker-queen",
+              "mauga",
+              "reaper",
+              "bastion",
+              "cassidy",
+              "echo",
+              "torbjorn",
+              "junkrat",
+              "ana",
+              "lucio",
+              "brigitte",
+              "illari",
+              "zenyatta"
+          ],
+          "synergyWith": []
       },
       {
           "id": "wrecking-ball",
           "name": "破坏球",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5c18e39ce567ee8a84078f775b9f76a2ba891de601c059a3d2b46b61ae4afb42.png",
-          "counters": [
-              "widowmaker",
-              "hanzo",
-              "ana",
-              "zenyatta"
-          ],
+          "counters": [],
           "counteredBy": [
-              "cassidy",
-              "soldier76",
-              "roadhog",
-              "sombra"
-          ],
-          "synergyWith": [
               "dva",
-              "tracer",
+              "doomfist",
+              "roadhog",
+              "mauga",
+              "orisa",
+              "sojourn",
+              "cassidy",
               "sombra",
+              "tracer",
+              "torbjorn",
+              "ana",
+              "brigitte",
               "lucio"
-          ]
+          ],
+          "synergyWith": []
       },
       {
           "id": "zarya",
           "name": "查莉娅",
           "role": "tank",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8819ba85823136640d8eba2af6fd7b19d46b9ee8ab192a4e06f396d1e5231f7a.png",
-          "counters": [
-              "dva",
+          "counters": [],
+          "counteredBy": [
               "reinhardt",
               "winston",
-              "tracer"
-          ],
-          "counteredBy": [
-              "pharah",
-              "junkrat",
+              "ramattra",
+              "wrecking-ball",
+              "ashe",
+              "mei",
               "widowmaker",
-              "hanzo"
+              "lifeweaver",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "roadhog",
-              "pharah",
-              "soldier76"
-          ]
+          "synergyWith": []
       },
       {
           "id": "ashe",
@@ -243,7 +315,18 @@
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "hazard",
+              "winston",
+              "ramattra",
+              "sojourn",
+              "hanzo",
+              "tracer",
+              "widowmaker",
+              "kiriko",
+              "illari",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -251,48 +334,52 @@
           "name": "堡垒",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4d715f722c42215072b5dd0240904aaed7b5285df0b2b082d0a7f1865b5ea992.png",
-          "counters": [
-              "reinhardt",
-              "roadhog",
-              "winston",
-              "dva"
-          ],
+          "counters": [],
           "counteredBy": [
+              "dva",
+              "hazard",
+              "junker-queen",
+              "sigma",
+              "mauga",
+              "ashe",
+              "sojourn",
+              "echo",
+              "symmetra",
               "genji",
-              "tracer",
+              "hanzo",
+              "junkrat",
+              "widowmaker",
               "pharah",
-              "junkrat"
+              "ana",
+              "illari",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "orisa",
-              "reinhardt",
-              "mercy",
-              "baptiste"
-          ]
+          "synergyWith": []
       },
       {
           "id": "cassidy",
           "name": "卡西迪",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png",
-          "counters": [
-              "tracer",
-              "pharah",
-              "genji",
-              "wrecking-ball"
-          ],
+          "counters": [],
           "counteredBy": [
-              "widowmaker",
-              "hanzo",
-              "roadhog",
-              "dva"
-          ],
-          "synergyWith": [
-              "reinhardt",
+              "hazard",
+              "mauga",
               "orisa",
-              "mercy",
-              "ana"
-          ]
+              "zarya",
+              "ashe",
+              "sojourn",
+              "soldier76",
+              "torbjorn",
+              "hanzo",
+              "mei",
+              "widowmaker",
+              "ana",
+              "baptiste",
+              "illari",
+              "zenyatta"
+          ],
+          "synergyWith": []
       },
       {
           "id": "echo",
@@ -300,7 +387,16 @@
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "winston",
+              "zarya",
+              "ashe",
+              "soldier76",
+              "widowmaker",
+              "ana",
+              "illari",
+              "baptiste"
+          ],
           "synergyWith": []
       },
       {
@@ -317,144 +413,133 @@
           "name": "源氏",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4edf5ea6d58c449a2aeb619a3fda9fff36a069dfbe4da8bc5d8ec1c758ddb8dc.png",
-          "counters": [
-              "widowmaker",
-              "hanzo",
-              "bastion",
-              "torbjorn"
-          ],
+          "counters": [],
           "counteredBy": [
               "winston",
-              "symmetra",
               "zarya",
-              "roadhog"
+              "cassidy",
+              "echo",
+              "torbjorn",
+              "pharah",
+              "brigitte",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "winston",
-              "dva",
-              "ana",
-              "mercy"
-          ]
+          "synergyWith": []
       },
       {
           "id": "hanzo",
           "name": "半藏",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aecd8fa677f0093344fab7ccb7c37516c764df3f5ff339a5a845a030a27ba7e0.png",
-          "counters": [
-              "pharah",
-              "dva",
-              "winston",
-              "wrecking-ball"
-          ],
+          "counters": [],
           "counteredBy": [
+              "doomfist",
+              "hazard",
+              "winston",
+              "wrecking-ball",
+              "echo",
+              "sombra",
               "genji",
               "tracer",
-              "dva",
-              "winston"
+              "venture",
+              "pharah",
+              "lucio",
+              "kiriko",
+              "juno",
+              "moira"
           ],
-          "synergyWith": [
-              "zarya",
-              "reinhardt",
-              "mercy",
-              "ana"
-          ]
+          "synergyWith": []
       },
       {
           "id": "junkrat",
           "name": "狂鼠",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/037e3df083624e5480f8996821287479a375f62b470572a22773da0eaf9441d0.png",
-          "counters": [
-              "reinhardt",
-              "dva",
-              "orisa",
-              "sigma"
-          ],
+          "counters": [],
           "counteredBy": [
+              "zarya",
+              "ashe",
+              "echo",
+              "genji",
+              "hanzo",
+              "tracer",
               "pharah",
-              "widowmaker",
-              "soldier76",
-              "dva"
+              "zenyatta",
+              "juno"
           ],
-          "synergyWith": [
-              "orisa",
-              "roadhog",
-              "baptiste",
-              "mercy"
-          ]
+          "synergyWith": []
       },
       {
           "id": "mei",
           "name": "小美",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png",
-          "counters": [
-              "genji",
-              "tracer",
-              "dva",
-              "winston"
-          ],
+          "counters": [],
           "counteredBy": [
-              "pharah",
-              "widowmaker",
+              "ashe",
+              "reaper",
+              "cassidy",
+              "echo",
               "hanzo",
-              "junkrat"
-          ],
-          "synergyWith": [
-              "reinhardt",
-              "roadhog",
+              "venture",
+              "widowmaker",
+              "pharah",
               "ana",
-              "moira"
-          ]
+              "baptiste",
+              "juno",
+              "illari",
+              "zenyatta"
+          ],
+          "synergyWith": []
       },
       {
           "id": "pharah",
           "name": "法老之鹰",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f8261595eca3e43e3b37cadb8161902cc416e38b7e0caa855f4555001156d814.png",
-          "counters": [
-              "reinhardt",
-              "zarya",
-              "junkrat",
-              "torbjorn"
-          ],
+          "counters": [],
           "counteredBy": [
+              "dva",
+              "wrecking-ball",
+              "ashe",
               "soldier76",
-              "cassidy",
+              "echo",
               "widowmaker",
-              "dva"
+              "baptiste",
+              "illari"
           ],
-          "synergyWith": [
-              "mercy",
-              "zarya",
-              "reinhardt",
-              "lucio"
-          ]
+          "synergyWith": []
       },
       {
           "id": "reaper",
           "name": "死神",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2edb9af69d987bb503cd31f7013ae693640e692b321a73d175957b9e64394f40.png",
-          "counters": [
-              "winston",
-              "roadhog",
-              "reinhardt",
-              "dva"
-          ],
+          "counters": [],
           "counteredBy": [
-              "pharah",
-              "widowmaker",
+              "sigma",
+              "orisa",
+              "zarya",
+              "ashe",
+              "sojourn",
+              "cassidy",
+              "echo",
+              "symmetra",
+              "genji",
+              "torbjorn",
               "hanzo",
-              "cassidy"
-          ],
-          "synergyWith": [
+              "tracer",
+              "widowmaker",
+              "pharah",
               "ana",
-              "moira",
+              "baptiste",
               "lucio",
-              "zarya"
-          ]
+              "brigitte",
+              "juno",
+              "illari",
+              "zenyatta"
+          ],
+          "synergyWith": []
       },
       {
           "id": "sojourn",
@@ -462,25 +547,61 @@
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "winston",
+              "echo",
+              "tracer",
+              "symmetra",
+              "widowmaker"
+          ],
           "synergyWith": []
       },
       {
-        "id": "soldier76",
-        "name": "士兵76",
-        "role": "damage",
-        "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png",
-        "counters": [],
-        "counteredBy": [],
-        "synergyWith": []
-    },
+          "id": "soldier76",
+          "name": "士兵76",
+          "role": "damage",
+          "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png",
+          "counters": [],
+          "counteredBy": [
+              "dva",
+              "doomfist",
+              "hazard",
+              "junker-queen",
+              "sigma",
+              "mauga",
+              "winston",
+              "wrecking-ball",
+              "ashe",
+              "bastion",
+              "reaper",
+              "sojourn",
+              "hanzo",
+              "widowmaker",
+              "baptiste",
+              "zenyatta",
+              "illari"
+          ],
+          "synergyWith": []
+      },
       {
           "id": "sombra",
           "name": "黑影",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bca8532688f01b071806063b9472f1c0f9fc9c7948e6b59e210006e69cec9022.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "dva",
+              "winston",
+              "zarya",
+              "sojourn",
+              "cassidy",
+              "soldier76",
+              "torbjorn",
+              "symmetra",
+              "tracer",
+              "lucio",
+              "brigitte"
+          ],
           "synergyWith": []
       },
       {
@@ -488,24 +609,21 @@
           "name": "秩序之光",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f2024c5387c9d76d944a5db021c2774d1e9d7cbf39e9b6a35b364d38ea250ac.png",
-          "counters": [
-              "genji",
-              "tracer",
-              "dva",
-              "winston"
-          ],
+          "counters": [],
           "counteredBy": [
+              "winston",
+              "zarya",
+              "ashe",
+              "echo",
+              "venture",
               "pharah",
-              "junkrat",
               "widowmaker",
-              "hanzo"
+              "ana",
+              "kiriko",
+              "brigitte",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "orisa",
-              "torbjorn",
-              "bastion"
-          ]
+          "synergyWith": []
       },
       {
           "id": "torbjorn",
@@ -513,7 +631,21 @@
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1309ab1add1cc19189a2c8bc7b1471f88efa1073e9705d2397fdb37d45707d01.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "orisa",
+              "zarya",
+              "ashe",
+              "bastion",
+              "sojourn",
+              "echo",
+              "hanzo",
+              "junkrat",
+              "mei",
+              "widowmaker",
+              "pharah",
+              "ana",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -521,24 +653,17 @@
           "name": "猎空",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a66413200e934da19540afac965cfe8a2de4ada593d9a52d53108bb28e8bbc9c.png",
-          "counters": [
-              "widowmaker",
-              "hanzo",
-              "bastion",
-              "zenyatta"
-          ],
+          "counters": [],
           "counteredBy": [
-              "cassidy",
-              "roadhog",
-              "junkrat",
-              "torbjorn"
-          ],
-          "synergyWith": [
-              "winston",
               "dva",
-              "lucio",
-              "sombra"
-          ]
+              "cassidy",
+              "torbjorn",
+              "baptiste",
+              "brigitte",
+              "juno",
+              "illari"
+          ],
+          "synergyWith": []
       },
       {
           "id": "venture",
@@ -546,7 +671,22 @@
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5d87623006ccc77578396831d4629f91b5162235a553b3f442e1a43161898e94.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "doomfist",
+              "roadhog",
+              "orisa",
+              "cassidy",
+              "sojourn",
+              "echo",
+              "tracer",
+              "pharah",
+              "lucio",
+              "brigitte",
+              "mercy",
+              "kiriko",
+              "juno",
+              "moira"
+          ],
           "synergyWith": []
       },
       {
@@ -554,96 +694,93 @@
           "name": "黑百合",
           "role": "damage",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "hanzo",
-              "ana"
-          ],
+          "counters": [],
           "counteredBy": [
+              "doomfist",
+              "sigma",
+              "winston",
+              "wrecking-ball",
+              "sombra",
               "genji",
               "tracer",
-              "dva",
-              "winston"
+              "widowmaker",
+              "lucio",
+              "kiriko"
           ],
-          "synergyWith": [
-              "orisa",
-              "sigma",
-              "mercy",
-              "baptiste"
-          ]
+          "synergyWith": []
       },
       {
           "id": "ana",
           "name": "安娜",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3429c394716364bbef802180e9763d04812757c205e1b4568bc321772096ed86.png",
-          "counters": [
-              "pharah",
-              "reinhardt",
-              "roadhog",
-              "dva"
-          ],
+          "counters": [],
           "counteredBy": [
+              "doomfist",
+              "hazard",
+              "junker-queen",
+              "winston",
+              "orisa",
+              "wrecking-ball",
+              "sombra",
               "genji",
+              "hanzo",
+              "venture",
               "tracer",
-              "dva",
-              "winston"
+              "widowmaker",
+              "zenyatta",
+              "kiriko"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "zarya",
-              "soldier76",
-              "cassidy"
-          ]
+          "synergyWith": []
       },
       {
           "id": "baptiste",
           "name": "巴蒂斯特",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f979896f74ba22db2a92a85ae1260124ab0a26665957a624365e0f96e5ac5b5c.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "dva",
-              "tracer"
-          ],
+          "counters": [],
           "counteredBy": [
+              "hazard",
+              "junker-queen",
+              "winston",
+              "sojourn",
+              "widowmaker",
               "genji",
               "hanzo",
-              "widowmaker",
-              "winston"
+              "ana",
+              "zenyatta",
+              "illari",
+              "moira"
           ],
-          "synergyWith": [
-              "orisa",
-              "sigma",
-              "soldier76",
-              "bastion"
-          ]
+          "synergyWith": []
       },
       {
           "id": "brigitte",
           "name": "布丽吉塔",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/48392820c6976ee1cd8dde13e71df85bf15560083ee5c8658fe7c298095d619a.png",
-          "counters": [
-              "genji",
-              "tracer",
-              "dva",
-              "winston"
-          ],
+          "counters": [],
           "counteredBy": [
-              "pharah",
-              "junkrat",
+              "hazard",
+              "junker-queen",
+              "ramattra",
+              "ashe",
+              "bastion",
+              "echo",
+              "symmetra",
+              "torbjorn",
               "hanzo",
-              "widowmaker"
+              "junkrat",
+              "mei",
+              "widowmaker",
+              "pharah",
+              "ana",
+              "baptiste",
+              "illari",
+              "moira",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "lucio",
-              "soldier76",
-              "cassidy"
-          ]
+          "synergyWith": []
       },
       {
           "id": "illari",
@@ -651,7 +788,14 @@
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ea986038f9d307bd4613d5e6f2c4c8e7f15f30ceeeabbdd7a06637a38f17e1f.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "sigma",
+              "winston",
+              "ashe",
+              "sojourn",
+              "widowmaker",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -660,7 +804,14 @@
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/585b2d60cbd3c271b6ad5ad0922537af0c6836fab6c89cb9979077f7bb0832b5.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "junker-queen",
+              "sojourn",
+              "sombra",
+              "illari",
+              "zenyatta",
+              "ana"
+          ],
           "synergyWith": []
       },
       {
@@ -669,7 +820,12 @@
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/088aff2153bdfa426984b1d5c912f6af0ab313f0865a81be0edd114e9a2f79f9.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "sojourn",
+              "pharah",
+              "tracer",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -678,7 +834,18 @@
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/39d4514f1b858bc228035b09d5a74ed41f8eeefc9a0d1873570b216ba04334df.png",
           "counters": [],
-          "counteredBy": [],
+          "counteredBy": [
+              "mauga",
+              "junker-queen",
+              "ashe",
+              "echo",
+              "sombra",
+              "venture",
+              "widowmaker",
+              "pharah",
+              "ana",
+              "zenyatta"
+          ],
           "synergyWith": []
       },
       {
@@ -686,24 +853,18 @@
           "name": "卢西奥",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2ff2527610a0fbe0c9956f80925123ef3e66c213003e29d37436de30b90e4e1.png",
-          "counters": [
-              "pharah",
-              "junkrat",
-              "mei",
-              "roadhog"
-          ],
+          "counters": [],
           "counteredBy": [
-              "cassidy",
-              "soldier76",
-              "dva",
-              "pharah"
+              "echo",
+              "sombra",
+              "pharah",
+              "ana",
+              "baptiste",
+              "juno",
+              "illari",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "winston",
-              "dva",
-              "tracer"
-          ]
+          "synergyWith": []
       },
       {
           "id": "mercy",
@@ -712,65 +873,66 @@
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2508ddd39a178d5f6ae993ab43eeb3e7961e5a54a9507e6ae347381193f28943.png",
           "counters": [],
           "counteredBy": [
-              "genji",
-              "tracer",
+              "dva",
+              "hazard",
+              "junker-queen",
+              "mauga",
               "winston",
-              "dva"
-          ],
-          "synergyWith": [
-              "pharah",
+              "wrecking-ball",
+              "ashe",
+              "sojourn",
               "soldier76",
-              "bastion",
-              "widowmaker"
-          ]
+              "echo",
+              "sombra",
+              "tracer",
+              "ana",
+              "juno",
+              "illari"
+          ],
+          "synergyWith": []
       },
       {
           "id": "moira",
           "name": "莫伊拉",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/000beeb5606e01497897fa9210dd3b1e78e1159ebfd8afdc9e989047d7d3d08f.png",
-          "counters": [
-              "genji",
-              "tracer",
-              "dva",
-              "winston"
-          ],
+          "counters": [],
           "counteredBy": [
-              "pharah",
+              "junker-queen",
+              "wrecking-ball",
+              "ashe",
+              "echo",
+              "torbjorn",
               "widowmaker",
-              "hanzo",
-              "soldier76"
+              "pharah",
+              "tracer",
+              "ana",
+              "baptiste",
+              "juno",
+              "zenyatta"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "roadhog",
-              "reaper",
-              "mei"
-          ]
+          "synergyWith": []
       },
       {
           "id": "zenyatta",
           "name": "禅雅塔",
           "role": "support",
           "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/71cabc939c577581f66b952f9c70891db779251e8e70f29de3c7bf494edacfe4.png",
-          "counters": [
-              "roadhog",
-              "reinhardt",
-              "zarya",
-              "dva"
-          ],
+          "counters": [],
           "counteredBy": [
+              "doomfist",
+              "winston",
+              "wrecking-ball",
+              "sojourn",
+              "echo",
+              "sombra",
               "genji",
               "tracer",
-              "winston",
-              "dva"
+              "venture",
+              "widowmaker",
+              "kiriko"
           ],
-          "synergyWith": [
-              "reinhardt",
-              "orisa",
-              "soldier76",
-              "cassidy"
-          ]
+          "synergyWith": []
       }
   ]
 }
