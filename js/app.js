@@ -470,12 +470,18 @@ class OverwatchRecommendationSystem {
         div.dataset.heroId = hero.id;
         div.dataset.role = hero.role;
 
-        // 检查是否可以选择该英雄
-        const inTeam = this.isHeroInComposition(hero.id, this.teamComposition);
-        const inEnemy = this.isHeroInComposition(hero.id, this.enemyComposition);
+        // 检查是否可以选择该英雄 - 只检查当前选择的队伍
         const canSelect = this.canSelectHero(hero);
 
-        if (inTeam || inEnemy || !canSelect) {
+        // 检查当前选择的队伍是否已有该英雄
+        let alreadySelected = false;
+        if (this.currentSelectionContext) {
+            const { team } = this.currentSelectionContext;
+            const composition = team === 'team' ? this.teamComposition : this.enemyComposition;
+            alreadySelected = this.isHeroInComposition(hero.id, composition);
+        }
+
+        if (alreadySelected || !canSelect) {
             div.classList.add('disabled');
         }
 
@@ -988,15 +994,19 @@ class OverwatchRecommendationSystem {
             const inTeam = this.isHeroInComposition(heroId, this.teamComposition);
             const inEnemy = this.isHeroInComposition(heroId, this.enemyComposition);
 
+            // 添加视觉标识区分己方和敌方选择
+            card.classList.toggle('in-team', inTeam);
+            card.classList.toggle('in-enemy', inEnemy);
             card.classList.toggle('selected', inTeam || inEnemy);
 
-            // 检查是否可以添加更多该角色的英雄
+            // 检查是否可以添加更多该角色的英雄到己方
             const maxSlots = this.maxSlots[this.currentMode];
             const canAddToTeam = this.currentMode === '5v5' ?
                 this.teamComposition[role].length < maxSlots[role] :
                 this.canAddHeroIn6v6(role);
 
-            card.classList.toggle('disabled', inTeam || inEnemy || !canAddToTeam);
+            // 只有己方阵容已满或该英雄已在己方时才禁用（允许选择敌方已有的英雄）
+            card.classList.toggle('disabled', !canAddToTeam);
         });
     }
 
@@ -1051,12 +1061,11 @@ class OverwatchRecommendationSystem {
 
     calculateRecommendations() {
         let availableHeroes = this.heroes.filter(hero => {
-            // 基础过滤：英雄不在任何阵容中
-            const notInComposition = !this.isHeroInComposition(hero.id, this.teamComposition) &&
-                                   !this.isHeroInComposition(hero.id, this.enemyComposition);
+            // 基础过滤：英雄不在己方阵容中（允许推荐敌方已有的英雄）
+            const notInTeamComposition = !this.isHeroInComposition(hero.id, this.teamComposition);
 
             // 角色限制检查
-            if (!notInComposition) return false;
+            if (!notInTeamComposition) return false;
 
             return this.canRecommendHero(hero);
         });
@@ -1269,12 +1278,11 @@ class OverwatchRecommendationSystem {
 
         // 获取可推荐的英雄
         let availableHeroes = this.heroes.filter(hero => {
-            // 基础过滤：英雄不在任何阵容中
-            const notInComposition = !this.isHeroInComposition(hero.id, this.teamComposition) &&
-                                   !this.isHeroInComposition(hero.id, this.enemyComposition);
+            // 基础过滤：英雄不在己方阵容中（允许推荐敌方已有的英雄）
+            const notInTeamComposition = !this.isHeroInComposition(hero.id, this.teamComposition);
 
             // 角色限制检查
-            if (!notInComposition) return false;
+            if (!notInTeamComposition) return false;
 
             return this.canRecommendHero(hero);
         });
